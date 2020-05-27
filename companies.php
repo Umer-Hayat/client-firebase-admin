@@ -80,7 +80,7 @@ include("includes/header.php");
                                                         <a href="updateuser.php?update=<?php echo $key; ?>"> 
                                                             <i style="font-size:25px;color:blue;margin-right:8px" class="ion-edit"></i>
                                                         </a> 
-                                                        <a href="users.php?del=<?php echo $key; ?>"
+                                                        <a href="companies.php?del=<?php echo $key; ?>"
                                                         onclick="return confirm('Are you sure to delete!')"> 
                                                             <i style="font-size:25px;color:#e30513;" class="ion-close-circled"></i>
                                                         </a>
